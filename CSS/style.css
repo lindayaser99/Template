@@ -29,6 +29,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 777;
 }
 header .container nav{
     display: flex;
@@ -101,7 +102,8 @@ header .container nav .close-menu i{
         right: 0;
         width: 100%;
         background-color: #FFF;
-        z-index: 5;
+        z-index: 99999999999;
+        
  }
  header .container nav .bur-menu i{
      display: block;
@@ -128,7 +130,7 @@ main .hero .container .main-section{
     position: absolute;
     top: 30%;
     padding: 10px;
-    width: 29%; 
+    
 }
 main .hero .container .main-section p:first-child
 {
